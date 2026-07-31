@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Giox Tool"
+version = "1.0.0"
+id = "artifacts/giox-tool"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24641
+
+[services.development]
+run = "pnpm --filter @workspace/giox-tool run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/giox-tool", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/giox-tool/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24641"
+BASE_PATH = "/"
