@@ -1,4 +1,8 @@
-https://drive.google.com/file/d/1rbyu7CP9CnzNzJhV4rjEZE7PIXKOZk9f/view?usp=drivesdk
+![Giox Tool](./screenshot.jpg)
+# Giox Tool
+
+## Screenshot
+
 <p align="center">
-  <img src="1000003988.jpg" alt="Giox Tool" width="800">
+  <img src="./screenshot.png" alt="Giox Tool Screenshot" width="800">
 </p>
