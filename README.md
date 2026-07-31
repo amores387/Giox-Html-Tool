@@ -1,5 +1,4 @@
-![Giox Tool](./screenshot.jpg)
-# Giox Tool
+![Giox Tool](./screenshot.jpg
 
 ## Screenshot
 
